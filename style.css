@@ -1,0 +1,124 @@
+.container{
+height: 100%;
+width:12%;
+background-color:rgb(54, 54, 54);
+padding-top: 12px;
+padding-left: 12px;
+padding-right: 12px;
+padding-bottom: 12px;
+display:grid;
+grid-template-columns:repeat(1,100%);
+grid-template-rows:repeat(20,5%);
+grid-gap:2em; 
+color: rgba(240, 240, 240, 0.637);
+font-family: 'Arial', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: lighter;
+margin-top:25px;
+}
+
+.image{
+    padding-right: 10 px;
+    height:20px;
+    width: 20px;
+    vertical-align: middle;
+    filter: invert(10);
+}
+
+.head{
+grid-row:1;
+vertical-align: middle;
+font-size:15px;
+}
+
+.dashboard{
+    grid-row:3;
+    vertical-align: middle;
+    font-size:12px;
+}
+.dashboard:hover{
+    border: 2px solid rgb(255,204,128);
+    border-width: 2px;
+    cursor:pointer;
+    border-style: dashed;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.accounts{
+    grid-row:4;
+    vertical-align: middle;
+    font-size:12px;
+}
+.accounts:hover{
+    border: 2px solid rgb(255,204,128);
+    border-width: 2px;
+    cursor:pointer;
+    border-style: dashed;
+    border-radius: 8px;
+    padding: 10px;
+}
+.partners{
+    grid-row:5;
+    vertical-align: middle;
+    font-size:12px;
+}
+.partners:hover{
+    border: 2px solid rgb(255,204,128);
+    border-width: 2px;
+    cursor:pointer;
+    border-style: dashed;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.withdraw{
+    grid-row:6;
+    vertical-align: middle;
+    font-size:10x;
+}
+.withdraw:hover{
+    border: 2px solid rgb(255,204,128);
+    border-width: 2px;
+    cursor:pointer;
+    border-style: dashed;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.marketing{
+    grid-row:7;
+    vertical-align: middle;
+    font-size:12px;
+}
+.marketing:hover{
+    border: 2px solid rgb(255,204,128);
+    border-width: 2px;
+    cursor:pointer;
+    border-style: dashed;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.reports{
+    grid-row:8;
+    vertical-align: middle;
+    font-size:12px;
+}
+.reports:hover{
+    border: 2px solid rgb(255,204,128);
+    border-width: 2px;
+    cursor:pointer;
+    border-style: dashed;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.small{
+    grid-row:20;
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: right;
+}
+.colored{
+    color:orange;
+}
